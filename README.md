@@ -214,6 +214,14 @@ Scripts
 5. Where possible, group interface implementations together.
 6. Methods should be ordered based on readability / usage.
 
+### Fields
+1. Fields are class member variables that **don't** have a getter and/or setter.
+2. Fields use the camelCase naming convention.
+
+### Properties
+1. Properties are class member variables that **do** have a getter and/or setter.
+2. Properties use the PascalCase naming convention.
+
 ### Variables
 1. Use `var` for local variables when the type of the variable is obvious from the right side of the assignment, or when the precise type is not important.
 2. Do not use `var` when the type is not apparent from the right side of the assignment.
