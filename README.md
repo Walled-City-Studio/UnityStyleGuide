@@ -265,7 +265,7 @@ To avoid exceptions and increase performance by skipping unnecessary comparisons
 
 ### Enums
 Enums will also use capital snakecasing (MAX_LENGTH).
-Voorbeeld: `public enum Foo { FOO_BAR }`
+Exmaple: `public enum Foo { FOO_BAR }`
 
 ### Property styles
 Use the { get; set; } syntax.
