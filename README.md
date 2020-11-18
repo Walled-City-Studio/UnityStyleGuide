@@ -265,6 +265,7 @@ To avoid exceptions and increase performance by skipping unnecessary comparisons
 
 ### Enums
 Enums will also use capital snakecasing (MAX_LENGTH).
+Example: `public enum Foo { FOO_BAR }`
 
 ### Property styles
 Use the { get; set; } syntax.
@@ -291,4 +292,4 @@ Use the { get; set; } syntax.
 4. `[HideInInspector]` for public properties that are only for use in scripting
 ---
 
-test
+
